@@ -11,7 +11,7 @@ var rollStatsButtonHeroic = <button type="button" onclick="rollStats()">Heroic</
 var statBlock = 0
 
 function StatBlock(){
-  return <div>
+  return <div className="StatBlock">
     <table>
       <tr>
         <td>
